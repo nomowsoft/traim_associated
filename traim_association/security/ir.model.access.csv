@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_directorate,directorate.directorate,model_directorate,base.group_user,1,1,1,1
+access_zone,zone.zone,model_zone,base.group_user,1,1,1,1
+access_benfictory_attatchment_type,benfictory_attatchment_type.benfictory_attatchment_type,model_benfictory_attatchment_type,base.group_user,1,1,1,1
+access_request_attatchment_type,request_attatchment_type.request_attatchment_type,model_request_attatchment_type,base.group_user,1,1,1,1
+access_benfictory_attatchment,benfictory_attatchment.benfictory_attatchment,model_benfictory_attatchment,base.group_user,1,1,1,1
+access_request_attatchment,request_attatchment.request_attatchment,model_request_attatchment,base.group_user,1,1,1,1
+access_beneficiary_request,beneficiary_request.beneficiary_request,model_beneficiary_request,base.group_user,1,1,1,1
+access_request_type,request_type.request_type,model_request_type,base.group_user,1,1,1,1
+access_program,program.program,model_program,base.group_user,1,1,1,1

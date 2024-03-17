@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_oppertunity_donate,oppertunity_donate.oppertunity_donate,model_oppertunity_donate,base.group_user,1,1,1,1
+access_opportunity_donate_type,opportunity_donate_type.opportunity_donate_type,model_opportunity_donate_type,base.group_user,1,1,1,1
+access_payments,payments.payments,model_payments,base.group_user,1,1,1,1
+access_transfer_fincial,transfer_fincial.transfer_fincial,model_transfer_fincial,base.group_user,1,1,1,1
+access_exchange_fund,exchange_fund.exchange_fund,model_exchange_fund,base.group_user,1,1,1,1
+access_financial_funds,financial_funds.financial_funds,model_financial_funds,base.group_user,1,1,1,1
+access_program_donate,program_donate.program_donate,model_program_donate,base.group_user,1,1,1,1
+access_trasfer_request,trasfer_request.trasfer_request,model_trasfer_request,base.group_user,1,1,1,1
+

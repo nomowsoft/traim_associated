@@ -1,0 +1,72 @@
+<odoo>
+  <menuitem id="traim_associated_main_menu" name="Traim Associated"/>
+  <menuitem 
+    id="traim_associated_child_menus" 
+    name="Associated Requests Procedures" 
+    parent="traim_associated_main_menu" 
+    sequence="1"
+  />
+  <menuitem 
+    id="traim_association_res_partner_menu_action" 
+    name="Beneficiary" 
+    parent="traim_associated_child_menus" 
+    action="traim_association_res_partner_action" 
+    sequence="1"
+  />
+  <menuitem 
+    id="beneficiary_request__menuaction" 
+    name="Beneficiary Request" 
+    parent="traim_associated_child_menus" 
+    action="beneficiary_request_action" 
+    sequence="2"
+  />
+  <menuitem 
+    id="settings_menu" 
+    name="Settings" 
+    parent="traim_associated_main_menu" 
+    sequence="4"
+  />
+  <menuitem 
+    id="directorate_menu_action" 
+    name="Directorates" 
+    parent="settings_menu" 
+    action="directorate_action" 
+    sequence="1"
+  />
+  <menuitem 
+    id="zone_menu_action" 
+    name="Zones" 
+    parent="settings_menu" 
+    action="zone_action" 
+    sequence="2"
+  />
+  <menuitem 
+    id="benfictory_attatchment_type_menu_action" 
+    name="Benfictory Attatchment Type" 
+    parent="settings_menu" 
+    action="benfictory_attatchment_type_action" 
+    sequence="3"
+  />
+  <menuitem 
+    id="request_attatchment_type__menu_action" 
+    name="Request Attatchment Type" 
+    parent="settings_menu" 
+    action="request_attatchment_type_action" 
+    sequence="4"
+  />
+  <menuitem 
+    id="program__menu_action" 
+    name="Program" 
+    parent="settings_menu" 
+    action="program_action" 
+    sequence="5"
+  />
+  <menuitem 
+    id="request_type_menu_action" 
+    name="Request Type" 
+    parent="settings_menu" 
+    action="request_type_action" 
+    sequence="6"
+  />
+
+</odoo>

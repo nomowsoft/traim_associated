@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="oppertunity_donate_beneficiary_request_view_form" model="ir.ui.view">
+        <field name="name">beneficiary.request.view.form</field>
+        <field name="model">beneficiary.request</field>
+        <field name="inherit_id" ref="traim_association.beneficiary_request_view_form"/>
+        <field name="arch" type="xml">
+            <header position="inside">
+              <button name="update_exchange_fund" type="object" string="Exchange Fund" attrs="{'invisible': [('stage','!=','draft')]}"/>
+            </header>
+            <xpath expr="//field[@name='cost']" position="after">
+            <field name="remaining_amount"/>
+           </xpath>
+            
+            <xpath expr="//notebook"  position="inside">   
+              <page string="Exchange Fund">
+                  <field name="exchange_fund_ids" widget="one2many" attrs="{'readonly': [('stage','!=','draft')]}">
+                    <tree editable="bottom" delete="0" create="0">
+                    <field name="payment_id" readonly="1"/>
+                    <field name="payment_cost" readonly="1"/>
+                    <field name="amout_deducated" readonly="1"/>
+                    <field name="frezon_cost" readonly="1"/>
+                    <field name="cost"/>
+                    </tree>
+                  </field>
+              </page>
+        		</xpath>
+        </field>
+    </record>
+</odoo>

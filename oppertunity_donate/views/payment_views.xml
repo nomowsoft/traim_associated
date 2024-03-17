@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="payments_view_tree" model="ir.ui.view">
+    <field name="name">payments.view.tree</field>
+    <field name="model">payments</field>
+    <field name="arch" type="xml">
+      <tree create="0" edit="0" delete="0">
+        <field name="name"/>
+        <field name="source"/>
+        <field name="partner_id"/>
+        
+
+
+       
+      </tree>
+    </field>
+  </record>
+  <record id="payments_view_form" model="ir.ui.view">
+    <field name="name">payments.view.form</field>
+    <field name="model">payments</field>
+    <field name="arch" type="xml">
+      <form string="" create="0" edit="0" delete="0">
+        <sheet>
+         <h1>
+            <field name="name" />
+          </h1>
+          <group>
+            <group>
+                <field name="source"/>
+                <field name="partner_id"/>
+                <field name="payment_cost"/>
+            </group>  
+            <group>  
+            <field name="net_cost"/>
+            <field name="amout_deducated"/>
+            <field name="frezon_cost"/>
+            </group>  
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+   <record id="payments_view_search" model="ir.ui.view">
+    <field name="name">payments.view.search</field>
+    <field name="model">payments</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name" />
+        <field name="partner_id"/>
+        <field name="financial_funds_id"/>
+        <field name="opportunity_donate_id"/>
+        <field name="transfer_fincial_id"/>
+        <filter
+          name="partner_id"
+          string="Supporter"
+          context="{'group_by': 'partner_id'}"
+        />
+        <filter
+          name="financial_funds_id"
+          string="Financial Funds"
+          context="{'group_by': 'financial_funds_id'}"
+        />
+        <filter
+          name="opportunity_donate_id"
+          string="Opportunity Donate"
+          context="{'group_by': 'opportunity_donate_id'}"
+        />
+        <filter
+          name="transfer_fincial_id"
+          string="Transfer Fincial"
+          context="{'group_by': 'transfer_fincial_id'}"
+        />
+      </search>
+    </field>
+  </record>
+
+  <record id="payments_action" model="ir.actions.act_window">
+    <field name="name">payments Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">payments</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+</odoo>

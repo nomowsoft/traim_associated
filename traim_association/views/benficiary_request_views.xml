@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="beneficiary_request_view_tree" model="ir.ui.view">
+    <field name="name">beneficiary.request.view.tree</field>
+    <field name="model">beneficiary.request</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name"/>
+        <field name="partner_id"/>
+        <field name="request_type_id"/>
+        <field name="stage"/>
+       
+      </tree>
+    </field>
+  </record>
+  <record id="beneficiary_request_view_form" model="ir.ui.view">
+    <field name="name">beneficiary.request.view.form</field>
+    <field name="model">beneficiary.request</field>
+    <field name="arch" type="xml">
+      <form string="">
+      <header>
+      <button name="action_confirm" type="object" string="Confirm" class="btn-default" attrs="{'invisible': [('stage','!=','draft')]}"/>
+      <button name="action_cancel" type="object" string="Cancel" class="btn-default" attrs="{'invisible': [('stage','!=','draft')]}"/>
+      <button name="action_done" type="object" string="Done" class="btn-default" attrs="{'invisible': [('stage','!=','in_progress')]}"/>
+        <field name="stage" widget="statusbar" clickable="0" />
+      </header>
+        <sheet>
+         <h1>
+            <field name="name" readonly="1"/>
+          </h1>
+          <group>
+            <group>
+              <field name="partner_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}" required="1" attrs="{'readonly': [('stage','!=','draft')]}"/>
+              <field name="request_type_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}" attrs="{'readonly': [('stage','!=','draft')]}"/>
+              <field name="program_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}" attrs="{'readonly': [('stage','!=','draft')]}"/>
+              <field name="beneficiary_state_description" attrs="{'readonly': [('stage','!=','draft')]}"/>
+              
+
+            </group>  
+            <group>  
+              <field name="note" attrs="{'readonly': [('stage','!=','draft')]}"/>
+              <field name="cost" required="1" attrs="{'readonly': [('stage','!=','draft')]}"/>
+            </group>  
+            <notebook>
+              <page string="Attachments">
+                  <field name="request_attatchment_ids" widget="one2many" attrs="{'readonly': [('stage','!=','draft')]}">
+                      <tree editable="bottom">
+                        <field name="request_attatchment_type_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}"/>
+                        <field name="file"  filename="file_name" widget="binary" required="1"/>
+                        <field name="note" />
+                      </tree>
+                  </field>
+              </page>
+            </notebook>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+   <record id="beneficiary_request_view_search" model="ir.ui.view">
+    <field name="name">beneficiary.request.view.search</field>
+    <field name="model">beneficiary.request</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name" />
+        <field name="partner_id" />
+        <field name="program_id" />
+        <filter
+          name="partner_id"
+          string="Beneficiary"
+          context="{'group_by': 'partner_id'}"
+        />
+        <filter
+          name="stage"
+          string="Stage"
+          context="{'group_by': 'stage'}"
+        />
+        <filter
+          name="program_id"
+          string="Program"
+          context="{'group_by': 'program_id'}"
+        />
+      </search>
+    </field>
+  </record>
+
+  <record id="beneficiary_request_action" model="ir.actions.act_window">
+    <field name="name">Beneficiary Request Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">beneficiary.request</field>
+    <field name="view_mode">tree,form,kanban</field>
+  </record>
+</odoo>

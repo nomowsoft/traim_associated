@@ -1,0 +1,394 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* traim_association
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-10 19:19+0000\n"
+"PO-Revision-Date: 2024-03-10 19:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__age
+#: model:ir.model.fields,field_description:traim_association.field_res_users__age
+msgid "Age"
+msgstr "العمر"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.traim_associated_child_menus
+msgid "Associated Requests Procedures"
+msgstr "إجراء طلبات المستفيدين"
+
+#. module: traim_association
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_form
+#: model_terms:ir.ui.view,arch_db:traim_association.traim_association_res_partner_form
+msgid "Attachments"
+msgstr "المرفقات"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_benfictory_attatchment__res_partner_id
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_search
+msgid "Beneficiary"
+msgstr "المستفيد"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.traim_association_res_partner_menu_action
+msgid "Beneficiary"
+msgstr "المستفيدين"
+
+#. module: traim_association
+#: model_terms:ir.ui.view,arch_db:traim_association.traim_association_res_partner_form
+msgid "Beneficiary Attachments"
+msgstr "اسم المستفيد"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__partner_id
+msgid "Beneficiary Name"
+msgstr "اسم المستفيد"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_beneficiary_request
+#: model:ir.model.fields,field_description:traim_association.field_request_attatchment__beneficiary_request_id
+msgid "Beneficiary Request"
+msgstr "طلب المستفيد"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.beneficiary_request__menuaction
+msgid "Beneficiary Request"
+msgstr "طلبات المستفيدين"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.beneficiary_request_action
+msgid "Beneficiary Request Action"
+msgstr "طلب المستفيد"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__beneficiary_state_description
+msgid "Beneficiary State Description"
+msgstr "وصف حالة المستفيد"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__benfictory_attatchment_ids
+#: model:ir.model.fields,field_description:traim_association.field_res_users__benfictory_attatchment_ids
+msgid "Benfictory Attatchment"
+msgstr "مرفقات المستفيد"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_benfictory_attatchment
+#: model:ir.model,name:traim_association.model_benfictory_attatchment_type
+#: model:ir.model.fields,field_description:traim_association.field_benfictory_attatchment__benfictory_attatchment_type_id
+msgid "Benfictory Attatchment Type"
+msgstr "نوع المرفق"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.benfictory_attatchment_type_menu_action
+msgid "Benfictory Attatchment Type"
+msgstr "أنواع مرفقات المستفيد"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.benfictory_attatchment_type_action
+msgid "Benfictory Attatchment Type Action"
+msgstr "نوع مرفقات المستفيد"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__res_partner__identity_type__birth_certificate
+msgid "Birth Certificate"
+msgstr "شهادة ميلاد"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__birth_date
+#: model:ir.model.fields,field_description:traim_association.field_res_users__birth_date
+msgid "Birth Date"
+msgstr "تاريخ الميلاد"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__beneficiary_request__stage__cancel
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: traim_association
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_directorate
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__directorate_id
+#: model:ir.model.fields,field_description:traim_association.field_res_users__directorate_id
+#: model:ir.model.fields,field_description:traim_association.field_zone__directorate_id
+#: model_terms:ir.ui.view,arch_db:traim_association.traim_association_res_partner_search
+msgid "Directorate"
+msgstr "المديرية"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.directorate_action
+msgid "Directorate Action"
+msgstr "المديرية"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.directorate_menu_action
+msgid "Directorates"
+msgstr "المديريات"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__district
+#: model:ir.model.fields,field_description:traim_association.field_res_users__district
+msgid "District"
+msgstr "الحي السكني"
+
+#. module: traim_association
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_form
+msgid "Done"
+msgstr "تم"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__beneficiary_request__stage__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_benfictory_attatchment__file
+#: model:ir.model.fields,field_description:traim_association.field_request_attatchment__file
+msgid "File"
+msgstr "الملف"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__res_partner__identity_type__identity_card
+msgid "Identity Card"
+msgstr "بطاقة شخصية"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__identity_number
+#: model:ir.model.fields,field_description:traim_association.field_res_users__identity_number
+msgid "Identity Number"
+msgstr "رقم الهوية"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__identity_picture
+#: model:ir.model.fields,field_description:traim_association.field_res_users__identity_picture
+msgid "Identity Picture"
+msgstr "صورة الهوية"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__identity_type
+#: model:ir.model.fields,field_description:traim_association.field_res_users__identity_type
+msgid "Identity Type"
+msgstr "نوع الهوية"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__beneficiary_request__stage__in_progress
+msgid "In Progress"
+msgstr "جاري"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__is_beneficiary
+#: model:ir.model.fields,field_description:traim_association.field_res_users__is_beneficiary
+msgid "Is Beneficiary"
+msgstr "هل مستفيد"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_benfictory_attatchment_type__is_required
+#: model:ir.model.fields,field_description:traim_association.field_request_attatchment_type__is_required
+msgid "Is Required"
+msgstr "هل متطلب"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_benfictory_attatchment__note
+#: model:ir.model.fields,field_description:traim_association.field_program__note
+#: model:ir.model.fields,field_description:traim_association.field_request_attatchment__note
+#: model:ir.model.fields,field_description:traim_association.field_request_type__note
+msgid "Note"
+msgstr "ملاحظات"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__res_partner__identity_type__other
+msgid "Other"
+msgstr "أخر"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__res_partner__identity_type__passport
+msgid "Passport"
+msgstr "جواز السفر"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_program
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__program_id
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_search
+msgid "Program"
+msgstr "البرنامج"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__name
+msgid "Name"
+msgstr "رقم الطلب"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_benfictory_attatchment_type__name
+#: model:ir.model.fields,field_description:traim_association.field_directorate__name
+#: model:ir.model.fields,field_description:traim_association.field_program__name
+#: model:ir.model.fields,field_description:traim_association.field_request_attatchment_type__name
+#: model:ir.model.fields,field_description:traim_association.field_request_type__name
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__name
+#: model:ir.model.fields,field_description:traim_association.field_res_users__name
+#: model:ir.model.fields,field_description:traim_association.field_zone__name
+msgid "Name"
+msgstr "الأسم"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__cost
+msgid "Cost"
+msgstr "تكلفة الطلب"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.program__menu_action
+msgid "Program"
+msgstr "البرامج"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.program_action
+msgid "Program Action"
+msgstr "البرنامج"
+
+#. module: traim_association
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_form
+msgid "Request Attachments"
+msgstr "مرفقات الطلب"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__request_attatchment_ids
+msgid "Request Attatchment"
+msgstr "مرفقات الطلب الطلب"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_request_attatchment
+#: model:ir.model,name:traim_association.model_request_attatchment_type
+#: model:ir.model.fields,field_description:traim_association.field_request_attatchment__request_attatchment_type_id
+msgid "Request Attatchment Type"
+msgstr "نوع المرفق"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.request_attatchment_type__menu_action
+msgid "Request Attatchment Type"
+msgstr "انواع مرفقات الطلب"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.request_attatchment_type_action
+msgid "Request Attatchment Type Action"
+msgstr "نوع مرفق الطلب"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_request_type
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__request_type_id
+msgid "Request Type"
+msgstr "نوع الطلب"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.request_type_menu_action
+msgid "Request Type"
+msgstr "أنواع الطلبات"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.request_type_action
+msgid "Request Type Action"
+msgstr "نوع الطلب"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.traim_association_res_partner_action
+msgid "Res Partner Action traim_association"
+msgstr "المستفيد"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.settings_menu
+msgid "Settings"
+msgstr "الإعدادات"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__stage
+#: model_terms:ir.ui.view,arch_db:traim_association.beneficiary_request_view_search
+msgid "Stage"
+msgstr "المرحلة"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.traim_associated_main_menu
+msgid "Traim Associated"
+msgstr "جمعية تريم"
+
+#. module: traim_association
+#. odoo-python
+#: code:addons/traim_association/models/beneficiary_request.py:0
+#: code:addons/traim_association/models/res_partner.py:0
+#, python-format
+msgid "You Can Not Allow To Add Same Attachment Type {} More Than One"
+msgstr "لا يمكنك إضافة نفس نوع المرفق {} أكثر من مرة"
+
+#. module: traim_association
+#. odoo-python
+#: code:addons/traim_association/models/beneficiary_request.py:0
+#: code:addons/traim_association/models/res_partner.py:0
+#, python-format
+msgid "You Should Add Attachment :"
+msgstr "يجب إضافة مرفق"
+
+#. module: traim_association
+#: model:ir.model,name:traim_association.model_zone
+#: model:ir.model.fields,field_description:traim_association.field_res_partner__zone_id
+#: model:ir.model.fields,field_description:traim_association.field_res_users__zone_id
+#: model_terms:ir.ui.view,arch_db:traim_association.traim_association_res_partner_search
+msgid "Zone"
+msgstr "المنطقة"
+
+#. module: traim_association
+#: model:ir.actions.act_window,name:traim_association.zone_action
+msgid "Zone Action"
+msgstr "المنطقة"
+
+#. module: traim_association
+#: model:ir.ui.menu,name:traim_association.zone_menu_action
+msgid "Zones"
+msgstr "المناطق"
+
+#. module: traim_association
+#: model:ir.model.fields.selection,name:traim_association.selection__beneficiary_request__stage__done
+msgid "done"
+msgstr "تم"
+
+#. module: traim_association
+#. odoo-python
+#: code:addons/traim_association/models/res_partner.py:0
+#, python-format
+msgid "mobile must be number"
+msgstr "رقم الجوال يجب ان يكون رقم"
+
+#. module: traim_association
+#: model:ir.model.fields,field_description:traim_association.field_beneficiary_request__note
+msgid "note"
+msgstr "ملاحظات"
+
+#. module: traim_association
+#. odoo-python
+#: code:addons/traim_association/models/res_partner.py:0
+#, python-format
+msgid "phone must be number"
+msgstr "رقم الهاتف يجب ان يكون رقم"
+
+#. module: traim_association
+#. odoo-python
+#: code:addons/traim_association/models/res_partner.py:0
+#, python-format
+msgid "birth date should be less than or equal today"
+msgstr "تاريخ الميلاد يجب ان يكون اصفر من تاريخ اليوم"
+
+#. module: traim_association
+#. odoo-python
+#: code:addons/traim_association/models/res_partner.py:0
+#, python-format
+msgid "birth date should be correct"
+msgstr "تاريخ الميلاد يجب ان يكون صحيحا"

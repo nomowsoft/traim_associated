@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+  <record id="project_type_action" model="ir.actions.act_window">
+    <field name="name">Project Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">project.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  
+  <record id="project_attatchment_type_action" model="ir.actions.act_window">
+    <field name="name">Project Attatchment Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">project.attatchment.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <record id="exchange_type_action" model="ir.actions.act_window">
+    <field name="name">Exchange Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">exchange.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>

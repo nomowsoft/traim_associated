@@ -1,0 +1,290 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fincial
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-10 20:28+0000\n"
+"PO-Revision-Date: 2024-03-10 20:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fincial
+#: model:ir.model.fields.selection,name:fincial.selection__executors__executor_type__administrative
+msgid "Administrative"
+msgstr "إداري"
+
+#. module: fincial
+#: model:ir.model.fields.selection,name:fincial.selection__project__stage__cancel
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: fincial
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_form
+msgid "Confirm"
+msgstr "تاكيد"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_exchanges__cost
+msgid "Cost"
+msgstr "التكلفة"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_exchanges__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_executors__directorate_id
+msgid "Directorate"
+msgstr "المديرية"
+
+#. module: fincial
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_form
+msgid "Done"
+msgstr "تم"
+
+#. module: fincial
+#: model:ir.model.fields.selection,name:fincial.selection__project__stage__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: fincial
+#: model:ir.ui.menu,name:fincial.exchange_type_menu_action
+msgid "Exchange Type"
+msgstr "أنواع المصروفات"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_exchanges__exchange_type_id
+msgid "Exchange Type"
+msgstr "نوع المصروف"
+
+#. module: fincial
+#: model:ir.actions.act_window,name:fincial.exchange_type_action
+msgid "Exchange Type Action"
+msgstr "نوع المصروف"
+
+#. module: fincial
+#: model:ir.model,name:fincial.model_exchange_type
+#: model:ir.model,name:fincial.model_exchanges
+msgid "ExchangeType"
+msgstr "نوع المصروفات"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__exchanges_ids
+msgid "Exchanges"
+msgstr "المصروفات"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_executors__executor_type
+msgid "Executor Type"
+msgstr "نوع المنفذ"
+
+#. module: fincial
+#: model:ir.model,name:fincial.model_executors
+#: model:ir.ui.menu,name:fincial.executors_menu_action
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_form
+msgid "Executors"
+msgstr "المنفذين"
+
+#. module: fincial
+#: model:ir.actions.act_window,name:fincial.executors_action
+msgid "Executors Action"
+msgstr "المنفذ"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project_attatchment__file
+msgid "File"
+msgstr "الملف"
+
+#. module: fincial
+#: model:ir.ui.menu,name:fincial.financial_main_menu
+msgid "Fincial Traim Associated"
+msgstr "مالية جمعية تريم"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__from_date
+msgid "From Date"
+msgstr "من تاريخ"
+
+#. module: fincial
+#: model:ir.model.fields.selection,name:fincial.selection__project__stage__in_progress
+msgid "In Progress"
+msgstr "جاري"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project_attatchment_type__is_required
+msgid "Is Required"
+msgstr "هل متطلب"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_executors__mobile
+msgid "Mobile"
+msgstr "رقم الجوال"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_exchange_type__name
+#: model:ir.model.fields,field_description:fincial.field_executors__name
+#: model:ir.model.fields,field_description:fincial.field_project__name
+#: model:ir.model.fields,field_description:fincial.field_project_attatchment_type__name
+#: model:ir.model.fields,field_description:fincial.field_project_type__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_executors__note
+#: model:ir.model.fields,field_description:fincial.field_project_attatchment__note
+msgid "Note"
+msgstr "الملاحضات"
+
+#. module: fincial
+#: model:ir.model,name:fincial.model_program
+#: model:ir.model.fields,field_description:fincial.field_project__program_ids
+msgid "Program"
+msgstr "البرنامج"
+
+#. module: fincial
+#: model:ir.model,name:fincial.model_project
+#: model:ir.model.fields,field_description:fincial.field_exchanges__project_id
+#: model:ir.model.fields,field_description:fincial.field_executors__project_id
+#: model:ir.model.fields,field_description:fincial.field_program__project_id
+#: model:ir.model.fields,field_description:fincial.field_project_attatchment__project_id
+#: model:ir.model.fields,field_description:fincial.field_res_partner__project_id
+#: model:ir.model.fields,field_description:fincial.field_res_users__project_id
+msgid "Project"
+msgstr "المشروع"
+
+#. module: fincial
+#: model:ir.ui.menu,name:fincial.project_menu_action
+msgid "Project"
+msgstr "المشاريع"
+
+#. module: fincial
+#: model:ir.actions.act_window,name:fincial.project_action
+msgid "Project Action"
+msgstr "المشروع"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__executors_ids
+#: model:ir.model.fields,field_description:fincial.field_project__project_attatchment_ids
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_form
+msgid "Project Attatchment"
+msgstr "المرفقات"
+
+#. module: fincial
+#: model:ir.model,name:fincial.model_project_attatchment
+#: model:ir.model,name:fincial.model_project_attatchment_type
+#: model:ir.model.fields,field_description:fincial.field_project_attatchment__project_attatchment_type_id
+msgid "Project Attatchment Type"
+msgstr "نوع المرفق"
+
+#. module: fincial
+#: model:ir.ui.menu,name:fincial.project_attatchment_type_menu_action
+msgid "Project Attatchment Type"
+msgstr "أنواع مرفقات المشروع"
+
+#. module: fincial
+#: model:ir.actions.act_window,name:fincial.project_attatchment_type_action
+msgid "Project Attatchment Type Action"
+msgstr "نوع مرفقات المشروع"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__project_cost
+msgid "Project Cost"
+msgstr "تكلفة المشروع"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__project_number
+msgid "Project Number"
+msgstr "رقم المشروع"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__project_place
+msgid "Project Place"
+msgstr "موقع المشروع"
+
+#. module: fincial
+#: model:ir.model,name:fincial.model_project_type
+#: model:ir.model.fields,field_description:fincial.field_project__project_type_id
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_search
+msgid "Project Type"
+msgstr "نوع المشروع"
+
+#. module: fincial
+#: model:ir.actions.act_window,name:fincial.project_type_action
+msgid "Project Type Action"
+msgstr "نوع المشروع"
+
+#. module: fincial
+#: model:ir.ui.menu,name:fincial.settings_menu
+msgid "Settings"
+msgstr "الإعدادات"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__stage
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_search
+msgid "Stage"
+msgstr "المرحلة"
+
+#. module: fincial
+#: model:ir.model.fields.selection,name:fincial.selection__executors__executor_type__teacher
+msgid "Teacher"
+msgstr "معلم"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__to_date
+msgid "To Date"
+msgstr "إلى تاريخ"
+
+#. module: fincial
+#. odoo-python
+#: code:addons/fincial/models/project.py:0
+#, python-format
+msgid "You Can Not Allow To Add Same Attachment Type {} More Than One"
+msgstr "لا يمكنك إضافة نوع المرفق اكثر من مرة"
+
+#. module: fincial
+#. odoo-python
+#: code:addons/fincial/models/project.py:0
+#, python-format
+msgid "You Should Add Attachment :"
+msgstr "يجب إضافة مرفق "
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_executors__zone_id
+msgid "Zone"
+msgstr "المنطقة"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__res_partner_ids
+msgid "beneficiary"
+msgstr "المستفيد"
+
+#. module: fincial
+#: model:ir.model.fields.selection,name:fincial.selection__project__stage__done
+msgid "done"
+msgstr "تم"
+
+#. module: fincial
+#: model_terms:ir.ui.view,arch_db:fincial.project_view_form
+msgid "exchanges"
+msgstr "المصروفات"
+
+#. module: fincial
+#. odoo-python
+#: code:addons/fincial/models/settings.py:0
+#, python-format
+msgid "mobile must be number"
+msgstr "رقم الجوال يجب ان يكون رقم"
+
+#. module: fincial
+#: model:ir.model.fields,field_description:fincial.field_project__notes
+msgid "notes"
+msgstr "ملاحظات"

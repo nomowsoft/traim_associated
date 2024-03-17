@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+  <record id="directorate_action" model="ir.actions.act_window">
+    <field name="name">Directorate Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">directorate</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  
+  <record id="zone_action" model="ir.actions.act_window">
+    <field name="name">Zone Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">zone</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <record id="benfictory_attatchment_type_action" model="ir.actions.act_window">
+    <field name="name">Benfictory Attatchment Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">benfictory.attatchment.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <record id="request_attatchment_type_action" model="ir.actions.act_window">
+    <field name="name">Request Attatchment Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">request.attatchment.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+ 
+  <record id="request_type_action" model="ir.actions.act_window">
+    <field name="name">Request Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">request.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>

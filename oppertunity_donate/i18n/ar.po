@@ -1,0 +1,479 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oppertunity_donate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-10 21:22+0000\n"
+"PO-Revision-Date: 2024-03-10 21:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__amout_deducated
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__amout_deducated
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__amout_deducated
+msgid "Amout Deducated"
+msgstr "المبلغ المخصوم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__association_cost
+msgid "Association Cost"
+msgstr "مبلغ تشغيل الجمعية"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__association_percentage
+msgid "Association Percentage"
+msgstr "نسبة تشغيل الجمعية"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_ir_attachment
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__attachment
+msgid "Attachment"
+msgstr "مرفق"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__attatchment_ids
+msgid "Attatchment"
+msgstr "المرفقات"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_beneficiary_request
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__beneficiary_request_id
+msgid "Beneficiary Request"
+msgstr "طلب المستفيد"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__oppertunity_donate__stage__cancel
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_view_form
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: oppertunity_donate
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_view_form
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_program_donate__cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__cost
+msgid "Cost"
+msgstr "التكلفة"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/beneficiary_request.py:0
+#, python-format
+msgid "Cost Should be not zero"
+msgstr "يجب إضافة تكلفة للطلب"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_partner__directorate_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_users__directorate_id
+msgid "Directorate"
+msgstr "المديرية"
+
+#. module: oppertunity_donate
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_view_form
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_form
+msgid "Done"
+msgstr "تم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__oppertunity_donate__stage__draft
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__transfer_fincial__stage__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_exchange_fund
+#: model:ir.model.fields,field_description:oppertunity_donate.field_beneficiary_request__exchange_fund_ids
+#: model:ir.model.fields,field_description:oppertunity_donate.field_project__project_exchange_fund_ids
+msgid "Exchange Fund"
+msgstr "صناديق الصرف"
+
+#. module: oppertunity_donate
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_project_view_form
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_beneficiary_request_view_form
+msgid "Exchange Fund"
+msgstr "تحديث صناديق الصرف"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.exchange_type_action
+msgid "Exchange Type Action"
+msgstr "نوع المصروف"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_financial_funds
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__financial_funds_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__financial_funds_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__financial_funds_id
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.payments_view_search
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_search
+msgid "Financial Funds"
+msgstr "محفظة المشاريع"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.financial_funds_action
+msgid "Financial Funds Action"
+msgstr "محفظة المشاريع"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__frezon_cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__frezon_cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__frezon_cost
+msgid "Frezon Cost"
+msgstr "المبلغ المحجوز"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__oppertunity_donate__stage__in_progress
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__transfer_fincial__stage__in_progress
+msgid "In Progress"
+msgstr "جاري"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_financial_funds__is_operational
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__is_operational
+msgid "Is Operational"
+msgstr "تشغيلي"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_partner__is_supporter
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_users__is_supporter
+msgid "Is Supporter"
+msgstr "الداعم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_financial_funds__name
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__name
+#: model:ir.model.fields,field_description:oppertunity_donate.field_opportunity_donate_type__name
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__name
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__net_cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__net_cost
+msgid "Net Cost"
+msgstr "صافي مبلغ الدفعة"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_partner__note
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_users__note
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__note
+msgid "Note"
+msgstr "ملاحظات"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/oppertunity_donate.py:0
+#, python-format
+msgid "Operational"
+msgstr "تشغيلي"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_ir_attachment__oppertunity_donate_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_program_donate__oppertunity_donate_id
+#: model:ir.ui.menu,name:oppertunity_donate.oppertunity_donate_menu_action
+msgid "Oppertunity Donate"
+msgstr "فرص التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.oppertunity_donate_action
+msgid "Oppertunity Donate Action"
+msgstr "فرصة التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__opportunity_donate_id
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.payments_view_search
+msgid "Opportunity Donate"
+msgstr "فرصة التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_opportunity_donate_type
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__opportunity_donate_type_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__opportunity_donate_type_id
+#: model:ir.ui.menu,name:oppertunity_donate.opportunity_donate_type_men_action
+msgid "Opportunity Donate Type"
+msgstr "نوع فرصة التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.opportunity_donate_type_action
+msgid "Opportunity Donate Type Action"
+msgstr "فرصة التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__payment_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_financial_funds__payment_ids
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__payment_id
+msgid "Payment"
+msgstr "الدفعة"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__payment_cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__payment_cost
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__payment_cost
+msgid "Payment Cost"
+msgstr "مبلغ الدفعة"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_payments
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__payments_ids
+#: model:ir.ui.menu,name:oppertunity_donate.payments_menu_action
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_view_form
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_form
+msgid "Payments"
+msgstr "الدفعات"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_financial_funds__program_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_program_donate__program_id
+msgid "Program"
+msgstr "البرنامج"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_program_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__program_donate_ids
+msgid "Program Donate"
+msgstr "برنامج التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.program_donate_action
+msgid "Program Donate Action"
+msgstr "برنامج التبرع"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_project
+#: model:ir.model.fields,field_description:oppertunity_donate.field_exchange_fund__project_id
+msgid "Project"
+msgstr "المشروع"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.project_attatchment_type_action
+msgid "Project Attatchment Type Action"
+msgstr "نوع مرفقات المشروع"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/project.py:0
+#, python-format
+msgid "Project Cost Should be not zero"
+msgstr "تكلفة المشروع يجب ان تكون اكبر من الصفر"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__received_date
+msgid "Received Date"
+msgstr "تاريخ الإستلام"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__remaining_amount
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__remaining_amount
+msgid "Remaining Amount"
+msgstr "المبلغ المتبقي"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/beneficiary_request.py:0
+#: code:addons/oppertunity_donate/models/project.py:0
+#, python-format
+msgid "Remaining Amount Should be zero"
+msgstr "المبلغ المتبقي يجب ان يكون صفر"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/transfer_fincial.py:0
+#, python-format
+msgid "Remaining amount should be zero"
+msgstr "المبلغ المتبقي يجب ان يكون صفر"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_beneficiary_request__remaining_amount
+#: model:ir.model.fields,field_description:oppertunity_donate.field_project__remaining_amount
+msgid "Remaint Amount"
+msgstr "المبلغ المتبقي"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.oppertunity_donate_res_partner_action
+msgid "Res Partner Action oppertunity_donate"
+msgstr "الداعم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__source
+msgid "Source"
+msgstr "المصدر"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__stage
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__stage
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_search
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_view_search
+msgid "Stage"
+msgstr "المرحلة"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__support_cost
+msgid "Support Cost"
+msgstr "تكلفة الدعم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__partner_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__partner_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__partner_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__partner_id
+msgid "Supporter Name"
+msgstr "اسم الداعم"
+
+#. module: oppertunity_donate
+#: model:ir.ui.menu,name:oppertunity_donate.oppertunity_donate_res_partner_menu_action
+msgid "Supporters"
+msgstr "الداعمين"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/oppertunity_donate.py:0
+#, python-format
+msgid "The you should add cost begger than 0 of program {}"
+msgstr "يجب إضافة مبلغ أكبر من الصفر للبرنامج {}"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/oppertunity_donate.py:0
+#, python-format
+msgid "The you should add percentage between 0 - 100"
+msgstr "يجب إضافة نسبة بين 0 - 100"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__total_payment_cost
+msgid "Total Payment Cost"
+msgstr "إجمالي مبلغ الدفعة"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_transfer_fincial
+#: model:ir.model.fields,field_description:oppertunity_donate.field_payments__transfer_fincial_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__transfer_fincial_id
+#: model:ir.ui.menu,name:oppertunity_donate.transfer_fincial_menu_action
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.payments_view_search
+msgid "Transfer Fincial"
+msgstr "المناقلات المالية"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/transfer_fincial.py:0
+#, python-format
+msgid "Transferring Cost must be less than payment net cost in payment {}"
+msgstr "المبلغ المنقول يجب ان يكون اصغر من صافي مبلغ الدفعة {}"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/transfer_fincial.py:0
+#, python-format
+msgid "Transferring Cost must be positive of payment {}"
+msgstr "المبلغ المنقول يجب ان يكون اكبر من الصفر للدفعة {}"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_transfer_fincial__transfer_request_ids
+msgid "Trasfer Request"
+msgstr "طلب المناقلة"
+
+#. module: oppertunity_donate
+#: model:ir.model,name:oppertunity_donate.model_trasfer_request
+msgid "Trasfer request"
+msgstr "طلب المناقلة"
+
+#. module: oppertunity_donate
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_form
+msgid "Update Financial Transfer"
+msgstr "تحديث صناديق المناقلة"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/oppertunity_donate.py:0
+#, python-format
+msgid "You Can Not Allow To Add Same Program {} More Than One"
+msgstr "لا يمكنك إختيار نفس البرنامج اكثر من مرة"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_partner__zone_id
+#: model:ir.model.fields,field_description:oppertunity_donate.field_res_users__zone_id
+msgid "Zone"
+msgstr "المنطقة"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/transfer_fincial.py:0
+#, python-format
+msgid "cost should be bigger than zero"
+msgstr "التكلفة يجب ان تكون اكبر من الصفر"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__oppertunity_donate__stage__done
+#: model:ir.model.fields.selection,name:oppertunity_donate.selection__transfer_fincial__stage__done
+msgid "done"
+msgstr "تم"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_trasfer_request__transferring_cost
+msgid "financial Claim Cost"
+msgstr "المبلغ المنقول"
+
+#. module: oppertunity_donate
+#: model:ir.model.fields,field_description:oppertunity_donate.field_oppertunity_donate__notes
+msgid "notes"
+msgstr "الملاحظات"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.payments_action
+msgid "payments Action"
+msgstr "الدفعات"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/oppertunity_donate.py:0
+#, python-format
+msgid "remaining amout should be zero"
+msgstr "المبلغ المتبقي يجب ان يكون صفر"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/oppertunity_donate.py:0
+#, python-format
+msgid "Support cost Should be bigger than zero"
+msgstr "مبلغ الدعم يجب أن يكون اكبر من الصفر"
+
+#. module: oppertunity_donate
+#: model:ir.actions.act_window,name:oppertunity_donate.transfer_fincial_action
+msgid "transfer.fincial Action"
+msgstr "المناقلة المالية"
+
+
+#. module: oppertunity_donate
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.oppertunity_donate_view_search
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.payments_view_search
+#: model_terms:ir.ui.view,arch_db:oppertunity_donate.transfer_fincial_view_search
+msgid "Supporter"
+msgstr "الداعم"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/beneficiary_request.py:0
+#, python-format
+msgid "You Should select program"
+msgstr "يجب إختيار برنامج"
+
+#. module: oppertunity_donate
+#. odoo-python
+#: code:addons/oppertunity_donate/models/project.py:0
+#, python-format
+msgid "You Should select programs"
+msgstr "يجب إختيار برامج"

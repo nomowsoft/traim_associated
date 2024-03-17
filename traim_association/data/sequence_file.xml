@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="seq_beneficiary_request" model="ir.sequence">
+    <field name="name">Beneficiary Request</field>
+    <field name="implementation">no_gap</field>
+    <field name="code">beneficiary.request.num</field>
+    <field name="implementation">no_gap</field>
+    <field name="prefix">BR</field>
+    <field name="padding">5</field>
+    <field name="number_next">1</field>
+    <field name="number_increment">1</field>
+  </record>
+
+</odoo>

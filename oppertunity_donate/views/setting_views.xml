@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+  <record id="opportunity_donate_type_action" model="ir.actions.act_window">
+    <field name="name">Opportunity Donate Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">opportunity.donate.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  
+  <record id="project_attatchment_type_action" model="ir.actions.act_window">
+    <field name="name">Project Attatchment Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">project.attatchment.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <record id="exchange_type_action" model="ir.actions.act_window">
+    <field name="name">Exchange Type Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">exchange.type</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <record id="program_donate_action" model="ir.actions.act_window">
+    <field name="name">Program Donate Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">program.donate</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <record id="financial_funds_action" model="ir.actions.act_window">
+    <field name="name">Financial Funds Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">financial.funds</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>

@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_project_type,project_type.project_type,model_project_type,base.group_user,1,1,1,1
+access_project_attatchment_type,project_attatchment_type.project_attatchment_type,model_project_attatchment_type,base.group_user,1,1,1,1
+access_project_attatchment,project_attatchment.project_attatchment,model_project_attatchment,base.group_user,1,1,1,1
+access_executors,executors.executors,model_executors,base.group_user,1,1,1,1
+access_exchange_type,exchange_type.exchange_type,model_exchange_type,base.group_user,1,1,1,1
+access_project,project.project,model_project,base.group_user,1,1,1,1
+access_exchanges,exchanges.exchanges,model_exchanges,base.group_user,1,1,1,1

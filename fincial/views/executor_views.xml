@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="executors_view_tree" model="ir.ui.view">
+    <field name="name">executors.view.tree</field>
+    <field name="model">executors</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name"/>
+        <field name="mobile"/>
+        <field name="directorate_id"/>
+       
+      </tree>
+    </field>
+  </record>
+  <record id="executors_view_form" model="ir.ui.view">
+    <field name="name">executors.view.form</field>
+    <field name="model">executors</field>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <group>
+              <field name="name"/>
+              <field name="mobile"/>
+              <field name="directorate_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}"/>
+            </group>  
+            <group>  
+              <field name="zone_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}"/>
+              <field name="note"/>
+              <field name="project_id" invisible="1"/>
+            </group>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="executors_action" model="ir.actions.act_window">
+    <field name="name">Executors Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">executors</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>

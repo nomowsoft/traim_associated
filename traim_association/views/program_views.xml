@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- model.name form view -->
+    <record id="program_view_form" model="ir.ui.view">
+        <field name="name">program.view.form</field>
+        <field name="model">program</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <field name="note"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+     <record id="program_action" model="ir.actions.act_window">
+    <field name="name">Program Action</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">program</field>
+    <field name="view_mode">tree,form</field>
+   </record>
+</odoo>

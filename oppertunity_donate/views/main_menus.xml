@@ -1,0 +1,40 @@
+<odoo>
+
+  <menuitem 
+    id="oppertunity_donate_menu_action" 
+    name="Oppertunity Donate" 
+    parent="fincial.financial_main_menu" 
+    action="oppertunity_donate_action" 
+    sequence="2"
+  />
+
+  <menuitem 
+    id="payments_menu_action" 
+    name="Payments" 
+    parent="fincial.financial_main_menu" 
+    action="payments_action" 
+    sequence="3"
+  />
+  <menuitem 
+    id="transfer_fincial_menu_action" 
+    name="Transfer Fincial" 
+    parent="fincial.financial_main_menu" 
+    action="transfer_fincial_action" 
+    sequence="4"
+  />
+  <menuitem 
+    id="opportunity_donate_type_men_action" 
+    name="Opportunity Donate Type" 
+    parent="fincial.settings_menu" 
+    action="opportunity_donate_type_action" 
+    sequence="4"
+  />
+  <menuitem 
+    id="oppertunity_donate_res_partner_menu_action" 
+    name="Supporters" 
+    parent="fincial.settings_menu" 
+    action="oppertunity_donate_res_partner_action" 
+    sequence="5"
+  />
+
+</odoo>

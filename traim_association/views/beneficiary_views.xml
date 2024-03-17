@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="traim_association_res_partner_view_tree" model="ir.ui.view">
+    <field name="name">res.partner.view.tree</field>
+    <field name="model">res.partner</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name"/>
+        <field name="age"/>
+        <field name="birth_date"/>
+       
+      </tree>
+    </field>
+  </record>
+  <record id="traim_association_res_partner_form" model="ir.ui.view">
+    <field name="name">res.partner.view.form</field>
+    <field name="model">res.partner</field>
+    <field name="arch" type="xml">
+      <form string="">
+        <sheet>
+          <group>
+            <group>
+              <field name="name" required="1"/>
+              <field name="birth_date"/>
+              <field name="age"/>
+              <field name="directorate_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}"/>
+              <field name="zone_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}"/>
+              <field name="district"/>
+              <field name="is_beneficiary" invisible="1"/>
+
+            </group>  
+            <group>  
+              <field name="mobile"/>
+              <field name="phone"/>
+              <field name="identity_type" widget="radio" options="{'horizontal': true}"/>
+              <field name="identity_number"/>
+              <field name="identity_picture"/>
+            </group>  
+            <notebook>
+              <page string="Attachments">
+                <group string="Beneficiary Attachments">
+                  <field name="benfictory_attatchment_ids" widget="one2many" string="">
+                      <tree editable="bottom">
+                        <field name="benfictory_attatchment_type_id" options="{'no_open': True,'no_create_edit': True,'no_create': True}"/>
+                        <field name="file"  filename="file_name" widget="binary" required="1"/>
+                        <field name="note" />
+                      </tree>
+                  </field>
+                </group>
+              </page>
+            </notebook>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+  <record id="traim_association_res_partner_search" model="ir.ui.view">
+    <field name="name">traim_association.res.partner.search</field>
+    <field name="model">res.partner</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name" />
+        <field name="directorate_id" />
+        <field name="zone_id" />
+        <field name="mobile"/>
+        <field name="phone"/>
+        <filter
+          name="directorate_id"
+          string="Directorate"
+          context="{'group_by': 'directorate_id'}"
+        />
+        <filter
+          name="zone_id"
+          string="Zone"
+          context="{'group_by': 'zone_id'}"
+        />
+      </search>
+    </field>
+  </record>
+
+  <record id="traim_association_res_partner_action" model="ir.actions.act_window">
+    <field name="name">Res Partner Action traim_association</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">res.partner</field>
+    <field name="view_mode">tree,form,kanban</field>
+    <field name="domain">[('is_beneficiary','=',True)]</field>
+    <field name="context">{'default_is_beneficiary':True}</field>
+    <field name="search_view_id" ref="traim_association_res_partner_search"/>
+
+  </record>
+
+
+  <record id="traim_association_res_partner_view_tree_tree" model="ir.actions.act_window.view">
+    <field eval="1" name="sequence" />
+    <field name="view_mode">tree</field>
+    <field name="view_id" ref="traim_association_res_partner_view_tree"/>
+    <field name="act_window_id" ref="traim_association_res_partner_action"/>
+  </record>
+
+  <record id="traim_association_res_partner_form_form" model="ir.actions.act_window.view">
+    <field eval="2" name="sequence"/>
+    <field name="view_mode">form</field>
+    <field name="view_id" ref="traim_association_res_partner_form"/>
+    <field name="act_window_id" ref="traim_association_res_partner_action"/>
+  </record>
+
+</odoo>

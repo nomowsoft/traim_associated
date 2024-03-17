@@ -1,0 +1,50 @@
+<odoo>
+  <menuitem id="financial_main_menu" name="Fincial Traim Associated"/>
+  <menuitem 
+    id="project_menu_action" 
+    name="Project" 
+    parent="financial_main_menu" 
+    action="project_action"
+    sequence="1"
+  />
+
+  <menuitem 
+    id="settings_menu" 
+    name="Settings" 
+    parent="financial_main_menu" 
+    sequence="10"
+  />
+
+  <!-- <menuitem 
+    id="project_type_menu_action" 
+    name="Project Type" 
+    parent="settings_menu" 
+    action="project_type_action" 
+    sequence="1"
+  /> -->
+
+  <menuitem 
+    id="project_attatchment_type_menu_action" 
+    name="Project Attatchment Type" 
+    parent="settings_menu" 
+    action="project_attatchment_type_action" 
+    sequence="2"
+  />
+
+  <menuitem 
+    id="exchange_type_menu_action" 
+    name="Exchange Type" 
+    parent="settings_menu" 
+    action="exchange_type_action" 
+    sequence="3"
+  />
+
+  <menuitem 
+    id="executors_menu_action" 
+    name="Executors" 
+    parent="settings_menu" 
+    action="executors_action" 
+    sequence="4"
+  />
+  
+</odoo>
